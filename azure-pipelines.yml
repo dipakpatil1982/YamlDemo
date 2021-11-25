@@ -15,3 +15,13 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+- task: CmdLine@2
+  inputs:
+    script: |
+      echo Hello how are you doing.
+      
+      echo This is my first yaml  pipeline demo. 
+      echo Dipak Patil.
+      echo Release Engineer.
+ 
+
