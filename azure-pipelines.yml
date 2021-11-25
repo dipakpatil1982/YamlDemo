@@ -22,6 +22,6 @@ steps:
       
       echo This is my first yaml  pipeline demo. 
       echo Dipak Patil.
-      echo and Job function is--->%MYFIRSTVAR%
+      echo %MYFIRSTVAR%
  
 
