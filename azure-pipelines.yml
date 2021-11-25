@@ -22,6 +22,6 @@ steps:
       
       echo This is my first yaml  pipeline demo. 
       echo Dipak Patil.
-      echo %MYFIRSTVAR%
+      echo $(MyFirstVar)
  
 
